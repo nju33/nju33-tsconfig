@@ -1,6 +1,6 @@
 {
   "name": "@nju33/tsconfig-base",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "tsconfig": {
@@ -14,7 +14,12 @@
     ],
     "compilerOptions": {
       "target": "es5",
-      "lib": ["dom", "es2015", "es2016", "es2017"],
+      "lib": [
+        "dom",
+        "es2015",
+        "es2016",
+        "es2017"
+      ],
       "sourceMap": true,
       "strict": true,
       "moduleResolution": "node",
