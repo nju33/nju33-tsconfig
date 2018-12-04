@@ -1,0 +1,18 @@
+{
+  "name": "@nju33/tsconfig-react-base",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "tsconfig": {
+    "extends": "@nju33/tsconfig-base",
+    "compilerOptions": {
+      "jsx": "react"
+    }
+  },
+  "dependencies": {
+    "@nju33/tsconfig-base": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@nju33/tsconfig-react-main",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "tsconfig": {
+    "extends": "@nju33/tsconfig-react-base",
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "./dist/main"
+    }
+  },
+  "dependencies": {
+    "@nju33/tsconfig-react-base": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

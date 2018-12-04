@@ -1,0 +1,20 @@
+{
+  "name": "@nju33/tsconfig-types",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "tsconfig": {
+    "extends": "@nju33/tsconfig-base",
+    "compilerOptions": {
+      "module": "esnext",
+      "declaration": true,
+      "outDir": "./dist/types"
+    }
+  },
+  "dependencies": {
+    "@nju33/tsconfig-base": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
