@@ -10,7 +10,7 @@
     "configs/*"
   ],
   "devDependencies": {
-    "lerna": "^2.8.0",
-    "renovate-config-nju33": "^0.0.1"
+    "lerna": "2.11.0",
+    "renovate-config-nju33": "0.0.1"
   }
 }

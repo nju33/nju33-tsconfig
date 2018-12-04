@@ -973,7 +973,7 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-lerna@^2.8.0:
+lerna@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.11.0.tgz#89b5681e286d388dda5bbbdbbf6b84c8094eff65"
   integrity sha512-kgM6zwe2P2tR30MYvgiLLW+9buFCm6E7o8HnRlhTgm70WVBvXVhydqv+q/MF2HrVZkCawfVtCfetyQmtd4oHhQ==
@@ -1556,7 +1556,7 @@ registry-url@^3.0.3:
   dependencies:
     rc "^1.0.1"
 
-renovate-config-nju33@^0.0.1:
+renovate-config-nju33@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/renovate-config-nju33/-/renovate-config-nju33-0.0.1.tgz#981f45c61bdb4bcac81e5eaa133814bdd56c9ca7"
   integrity sha512-w9uSZLLz66BN+ZaHgIQxHlHt7kDM+EsonFJpdntlvvXm4a8hiFUUS/bDsT+HYmuUdOUgS5rV1H1xNYWeQCmDZg==
