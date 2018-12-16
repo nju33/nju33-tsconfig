@@ -3,13 +3,6 @@
   "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
-  "tsconfig": {
-    "extends": "@nju33/tsconfig-react-base",
-    "compilerOptions": {
-      "module": "esnext",
-      "outDir": "./dist/module"
-    }
-  },
   "dependencies": {
     "@nju33/tsconfig-react-base": "^0.0.2"
   },

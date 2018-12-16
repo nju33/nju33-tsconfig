@@ -1,0 +1,6 @@
+{
+  "extends": "@nju33/tsconfig-base",
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}
