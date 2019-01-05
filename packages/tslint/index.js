@@ -6,8 +6,8 @@ module.exports = {
       true,
       {
         limit: 80,
-        'ignore-pattern': '^import|^export',
-      },
+        'ignore-pattern': '^import|^export'
+      }
     ],
     'max-file-line-count': [true, 500],
     'no-namespace': true,
@@ -19,7 +19,7 @@ module.exports = {
       'ban-keywords',
       'check-format',
       'allow-leading-underscore',
-      'allow-pascal-case',
+      'allow-pascal-case'
     ],
     'prefer-const': true,
     'prefer-readonly': true,
@@ -28,8 +28,8 @@ module.exports = {
       true,
       'check-lowercase',
       {
-        'ignore-words': ['TODO'],
-      },
+        'ignore-words': ['TODO']
+      }
     ],
     'no-for-in': true,
     'no-for-in-array': true,
@@ -37,13 +37,14 @@ module.exports = {
     'no-unused-variable': [
       true,
       {
-        'ignore-pattern': '^_',
-      },
+        'ignore-pattern': '^_'
+      }
     ],
     'interface-name': [true, 'never-prefix'],
     'arrow-return-shorthand': true,
     'object-literal-key-quotes': [true, 'as-needed'],
     'no-void-expression': true,
     'prefer-object-spread': true,
-  },
+    'type-literal-delimiter': false
+  }
 };
