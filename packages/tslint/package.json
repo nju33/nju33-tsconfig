@@ -1,0 +1,16 @@
+{
+  "name": "@nju33/tslint",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-xo": "^0.11.0"
+  }
+}

@@ -1,12 +1,5 @@
 {
-  "lerna": "2.8.0",
-  "packages": [
-    "configs/*"
-  ],
   "version": "0.0.3",
-  "command": {
-    "publish": {
-      "npmClient": "yarn"
-    }
-  }
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
