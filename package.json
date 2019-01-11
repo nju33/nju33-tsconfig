@@ -6,7 +6,7 @@
     "packages/**"
   ],
   "devDependencies": {
-    "lerna": "3.8.5",
+    "lerna": "3.10.5",
     "renovate-config-nju33": "0.0.1"
   }
 }
