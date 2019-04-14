@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "browser",
+    "react",
+    "_ts-rules.js",
+    "index.js",
+    "ts.js"
+  ],
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
