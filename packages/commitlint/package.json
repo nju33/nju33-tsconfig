@@ -1,6 +1,6 @@
 {
   "name": "@nju33/commitlint-config",
-  "version": "0.0.0",
+  "version": "0.0.10",
   "main": "index.js",
   "files": [
     "index.js"
