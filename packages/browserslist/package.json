@@ -1,11 +1,14 @@
 {
   "name": "@nju33/browserslist-config",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "index.js",
   "files": [
     "cfs.js",
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "gitHead": "68416f33ba3aebd095b604128ad3f506d8217469"
 }

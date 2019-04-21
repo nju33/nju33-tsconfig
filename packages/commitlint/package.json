@@ -1,7 +1,10 @@
 {
   "name": "@nju33/commitlint-config",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "index.js"
   ],
