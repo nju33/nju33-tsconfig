@@ -16,7 +16,10 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "nju33/config",
   "license": "MIT",
-  "gitHead": "68416f33ba3aebd095b604128ad3f506d8217469"
+  "gitHead": "d51eb8c23c75b140c6cb8d1b663f30b6ec1fd7f6"
 }
