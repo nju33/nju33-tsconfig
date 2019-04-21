@@ -17,5 +17,6 @@
     "index.js"
   ],
   "repository": "nju33/config",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "68416f33ba3aebd095b604128ad3f506d8217469"
 }

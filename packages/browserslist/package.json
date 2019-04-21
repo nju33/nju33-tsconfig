@@ -6,5 +6,6 @@
     "cfs.js",
     "index.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "68416f33ba3aebd095b604128ad3f506d8217469"
 }

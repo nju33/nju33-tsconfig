@@ -10,6 +10,9 @@
     "index.js",
     "ts.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
@@ -22,5 +25,6 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0"
-  }
+  },
+  "gitHead": "68416f33ba3aebd095b604128ad3f506d8217469"
 }
