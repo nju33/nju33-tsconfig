@@ -1,6 +1,6 @@
 {
   "name": "@nju33/renovate-config",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "renovate-config": {
     "default": {
       "extends": [
