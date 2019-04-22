@@ -18,6 +18,6 @@ module.exports = {
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-member-accessibility.md
   '@typescript-eslint/explicit-member-accessibility': [
     2,
-    {accessibility: 'no-public'},
+    [{accessibility: 'no-public'}],
   ],
 };
