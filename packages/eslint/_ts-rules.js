@@ -16,5 +16,8 @@ module.exports = {
   '@typescript-eslint/indent': 0,
   // メソッド名や`constructor`などに対して`public`は付けなくていいように
   // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-member-accessibility.md
-  '@typescript-eslint/explicit-member-accessibility': [2, 'no-public'],
+  '@typescript-eslint/explicit-member-accessibility': [
+    2,
+    {accessibility: 'no-public'},
+  ],
 };
