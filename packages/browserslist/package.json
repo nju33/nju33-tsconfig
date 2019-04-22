@@ -1,6 +1,6 @@
 {
   "name": "@nju33/browserslist-config",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "main": "index.js",
   "files": [
     "cfs.js",
