@@ -20,5 +20,13 @@ test('browser/ts', () => {
       'prettier/@typescript-eslint',
     ],
     rules: tsRules,
+    overrides: [
+      {
+        files: ['*.ts', '*.tsx'],
+        rules: {
+          'no-dupe-class-members': 'off',
+        },
+      },
+    ],
   });
 });

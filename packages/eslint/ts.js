@@ -16,4 +16,12 @@ module.exports = {
   rules: {
     ...tsRules,
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-dupe-class-members': 'off',
+      },
+    },
+  ],
 };
