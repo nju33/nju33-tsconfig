@@ -1,10 +1,10 @@
 {
   "name": "@nju33/tsconfig-main",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@nju33/tsconfig-base": "^0.0.23"
+    "@nju33/tsconfig-base": "^0.0.24"
   },
   "publishConfig": {
     "access": "public"
