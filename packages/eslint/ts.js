@@ -23,5 +23,14 @@ module.exports = {
         'no-dupe-class-members': 'off',
       },
     },
+    // cSpell: disable-next-line
+    // `constructor`のオーバーロード対策
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error',
+      },
+    },
   ],
 };

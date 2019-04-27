@@ -28,6 +28,13 @@ test('react/ts', () => {
           'no-dupe-class-members': 'off',
         },
       },
+      {
+        files: ['*.ts', '*.tsx'],
+        rules: {
+          'no-useless-constructor': 'off',
+          '@typescript-eslint/no-useless-constructor': 'error',
+        },
+      },
     ],
   });
 });
