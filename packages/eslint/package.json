@@ -6,6 +6,7 @@
   "files": [
     "browser",
     "react",
+    "canary.js",
     "_ts-rules.js",
     "index.js",
     "ts.js"
