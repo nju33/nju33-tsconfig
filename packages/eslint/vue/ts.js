@@ -6,15 +6,15 @@ module.exports = {
     browser: true,
     'jest/globals': true,
   },
-  plugins: ['@typescript-eslint', 'jest', 'react'],
+  plugins: ['@typescript-eslint', 'jest', 'vue'],
   extends: [
     'xo-space/esnext',
     'plugin:jest/recommended',
-    'plugin:react/recommended',
+    'plugin:vue/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
-    'prettier/react',
+    'prettier/vue',
   ],
   rules: tsConfig.rules,
 };

@@ -1,19 +1,19 @@
-test('react ts', () => {
+test('vue ts', () => {
   expect(require('./ts')).toEqual({
     parser: '@typescript-eslint/parser',
     env: {
       browser: true,
       'jest/globals': true,
     },
-    plugins: ['@typescript-eslint', 'jest', 'react'],
+    plugins: ['@typescript-eslint', 'jest', 'vue'],
     extends: [
       'xo-space/esnext',
       'plugin:jest/recommended',
-      'plugin:react/recommended',
+      'plugin:vue/recommended',
       'plugin:@typescript-eslint/recommended',
       'plugin:prettier/recommended',
       'prettier/@typescript-eslint',
-      'prettier/react',
+      'prettier/vue',
     ],
     rules: {
       'valid-jsdoc': 0,

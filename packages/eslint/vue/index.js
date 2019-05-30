@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['jest', 'react'],
+  plugins: ['jest', 'vue'],
   env: {
     browser: true,
     'jest/globals': true,
@@ -7,8 +7,8 @@ module.exports = {
   extends: [
     'xo-space/esnext',
     'plugin:jest/recommended',
-    'plugin:react/recommended',
+    'plugin:vue/recommended',
     'plugin:prettier/recommended',
-    'prettier/react',
+    'prettier/vue',
   ],
 };

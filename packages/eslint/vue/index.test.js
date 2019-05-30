@@ -1,19 +1,18 @@
-const browserConfig = require('.');
+const reactConfig = require('.');
 
-test('browser', () => {
-  expect(browserConfig).toEqual({
-    plugins: ['jest'],
+test('vue', () => {
+  expect(reactConfig).toEqual({
+    plugins: ['jest', 'vue'],
     env: {
       browser: true,
-      node: true,
       'jest/globals': true,
     },
     extends: [
-      'xo-space',
       'xo-space/esnext',
-      'xo-space/browser',
       'plugin:jest/recommended',
+      'plugin:vue/recommended',
       'plugin:prettier/recommended',
+      'prettier/vue',
     ],
   });
 });
