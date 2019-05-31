@@ -26,6 +26,13 @@ test('react ts', () => {
       'no-dupe-class-members': 'off',
       'no-useless-constructor': 'off',
       '@typescript-eslint/no-useless-constructor': 'error',
+      '@typescript-eslint/explicit-function-return-type': [
+        0,
+        {
+          allowExpressions: false,
+          allowTypedFunctionExpressions: false,
+        },
+      ],
     },
   });
 });
