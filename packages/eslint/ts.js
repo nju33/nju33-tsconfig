@@ -20,6 +20,7 @@ module.exports = {
     'capitalized-comments': 0,
     // In .ts, an error at the time of `typeof` use
     // tsファイルで、`typeof`を使うと定義されていないと言われるので無効化
+    // ? interface, enum, class property, typeof
     'no-undef': 0,
     // eslint の`no-unused-vars`では`interface`などが扱えないので
     // eslint 側のルールは無効化し、 ts-eslint のルールを使う
