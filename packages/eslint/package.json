@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "eslint": "5.16.0",
-    "prettier": "1.19.0"
+    "prettier": "1.19.1"
   },
   "gitHead": "baf35ee7e8e8d6a08e484570b680e0fa9b7710ed"
 }
