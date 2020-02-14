@@ -2058,6 +2058,11 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+confusing-browser-globals@1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.9.tgz#72bc13b483c0276801681871d4898516f8f54fdd"
+  integrity sha512-KbS1Y0jMtyPgIxjO7ZzMAuUpAKMt1SzCL9fsrKsX6b0zJPTaT0SiSPmewwVZg9UAO83HVIlEhZF84LIjZ0lmAw==
+
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
@@ -2633,17 +2638,19 @@ eslint-config-prettier@^4.1.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-xo-space@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.22.0.tgz#dbe57efa7ce93c38e924b9f0f1f1c04bc84426f0"
-  integrity sha512-c+qGdMg+2gw7DBcmZJnpIXLuKRLEMr/9/MFXPh2dY6gSb3Cx7O7sNUHTRLaB/DOMr5h29vwi+yhm6e5Ux1/TPA==
+eslint-config-xo-space@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.24.0.tgz#48bcbf2fda7986edb1d3cd9163de3b07d2c2d584"
+  integrity sha512-y6vqCeKvbPsDBKJhwffamHHFJiegwJEioqdGigkIr5eNiCRd28A5wMapWLeCzvpMK03BWknTEEaoIlfQsqnmDg==
   dependencies:
-    eslint-config-xo "^0.27.2"
+    eslint-config-xo "^0.29.0"
 
-eslint-config-xo@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.27.2.tgz#71aff3d5b5554e9e5b5e1853e21da7799bb53f1f"
-  integrity sha512-qEuZP0zNQkWpOdNZvWnfY2GNp1AZ33uXgeOXl4DN5YVLHFvekHbeSM2FFZ8A489fp1rCCColVRlJsYMf28o4DA==
+eslint-config-xo@^0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.29.0.tgz#d67e514f1047cd5388f75c9c574015eff38c705e"
+  integrity sha512-T1pgAOcIRSPXlgQPWI8fxDpIU1XRFSQW1RxtvHJPnZUV5KaHW4juKZUdAmTaPqOV1cp0wIkP32kVO1vKMWk6Jw==
+  dependencies:
+    confusing-browser-globals "1.0.9"
 
 eslint-plugin-jest@^22.4.1:
   version "22.4.1"
