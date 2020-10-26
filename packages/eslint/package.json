@@ -13,7 +13,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^5.0.0 || ^7.0.0",
     "prettier": "^1.0.0"
   },
   "dependencies": {
@@ -27,7 +27,7 @@
     "eslint-plugin-vue": "^5.2.2"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
+    "eslint": "7.12.0",
     "prettier": "1.19.1"
   },
   "gitHead": "baf35ee7e8e8d6a08e484570b680e0fa9b7710ed"
